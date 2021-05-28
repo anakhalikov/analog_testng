@@ -1,8 +1,6 @@
 package analog.pages;
 
 import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Message {
 
@@ -30,6 +28,15 @@ public class Message {
             }
         }
     }
+
+    public static void main(String[] args) {
+
+        Message message = new Message();
+
+        message.enterNumMess();
+
+    }
+
 }
 
 
