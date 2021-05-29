@@ -1,17 +1,16 @@
 package analog.testing;
 
-import analog.pages.RunningShellCommand;
+import analog.pages.Message2;
 
 import java.io.IOException;
+import java.util.concurrent.ExecutionException;
 
 public class ReportSC {
 
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args) throws IOException, InterruptedException, ExecutionException {
 
-        RunningShellCommand rsc = new RunningShellCommand();
+        Message2 m2 = new Message2();
 
-        rsc.reportSC();
-
-       // rsc.checkErrorMessage();
+        m2.messageEmpty();
     }
 }
