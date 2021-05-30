@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "analog/step/definitions",
         dryRun =false,
-        tags = "@message",
+        tags = "",
         publish = true
 )
 public class CucRunner {
