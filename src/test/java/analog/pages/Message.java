@@ -1,8 +1,9 @@
-package analog.pages;
+package java.analog.pages;
 
+import java.analog.pages.BasePage;
 import java.util.Scanner;
 
-public class Message {
+public class Message extends BasePage {
 
     Scanner sc;
     char character;
@@ -29,13 +30,7 @@ public class Message {
         }
     }
 
-    public static void main(String[] args) {
 
-        Message message = new Message();
-
-        message.enterNumMess();
-
-    }
 
 }
 
