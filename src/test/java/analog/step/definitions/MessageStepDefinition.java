@@ -23,7 +23,7 @@ public class MessageStepDefinition {
     }
 
     @Given("User leave empty numbers of messages")
-    public void user_leave_empty_numbers_of_messages() throws IOException, InterruptedException {
+    public void user_leave_empty_numbers_of_messages() throws IOException{
         message2.messageEmpty();
     }
 
