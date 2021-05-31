@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
         glue = "analog/step/definitions",
         dryRun =false,
         tags = "",
-        publish = true
+        publish = true,
+        plugin = "json:target/cucumber.json"
 )
 public class CucRunner {
 }
