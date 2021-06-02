@@ -14,8 +14,7 @@ public class Message2 extends BasePage {
     public void messageEmpty() throws IOException {
         processBuilder = new ProcessBuilder();
 
-        String[] cectMessEmpty = {"cmd.exe", "/c", "start", "cmd.exe", "/k", "cmd.exe > messEmpty.txt 2>&1" , "cmd.exe", "/k", "cargo run -- cectMessEmpty.yml",
-                "cmd.exe", "/k", "exit"};
+        String[] cectMessEmpty = {"cmd.exe", "/c", "start", "cmd.exe", "/k", "cmd.exe > messEmpty.txt 2>&1" , "cmd.exe", "/k", "cargo run -- cectMessEmpty.yml"};
 
         processBuilder
                 .command(cectMessEmpty)
